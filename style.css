@@ -1,14 +1,16 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #image-container {
   width: 400px;
-  height: 500px;
+  height: 550px;
   margin: auto;
   position: relative;
-  top: 15vh;
+  top: 13vh;
   overflow: hidden;
+  border-radius: 30px;
 }
 
 #main-image {
@@ -28,6 +30,26 @@ body {
 }
 
 #image-overlay:hover {
-  background: rgba(0, 0, 0, 0.5) 0%;
-  opacity: 1;
+  background: rgba(0, 0, 0, 0.3) 100%;
+}
+
+#save-button {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 20px;
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  color: white;
+  background-color: #e60022;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  transform: translateY(-100px);
+}
+
+#image-container:hover #save-button {
+  transform: translateY(0px);
+  transition: 0.5s;
 }
