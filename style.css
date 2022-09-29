@@ -84,6 +84,15 @@ body {
   text-overflow: ellipsis;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #e60022;
+}
+
 ion-icon {
   font-size: 2em;
   background: rgb(255, 255, 255, 0.9);
