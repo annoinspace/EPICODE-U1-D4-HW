@@ -47,9 +47,50 @@ body {
   height: 50px;
   border-radius: 50px;
   transform: translateY(-100px);
+  cursor: pointer;
+  user-select: none;
 }
 
 #image-container:hover #save-button {
   transform: translateY(0px);
   transition: 0.5s;
+}
+
+#lower-navigation {
+  position: relative;
+  bottom: 15%;
+  display: flex;
+  transform: translateY(100px);
+  cursor: pointer;
+  user-select: none;
+}
+
+#image-container:hover #lower-navigation {
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+#image-link {
+  font-size: 1.5em;
+  background: rgb(255, 255, 255, 0.9);
+  margin-left: 10px;
+  border-radius: 25px;
+  padding-top: 0;
+  width: 250px;
+  height: 50px;
+  white-space: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#image-link ion-icon {
+  background: rgb(255, 255, 255, 0);
+}
+
+ion-icon {
+  font-size: 2em;
+  background: rgb(255, 255, 255, 0.9);
+  margin-left: 10px;
+  border-radius: 50%;
+  padding: 10px;
 }
