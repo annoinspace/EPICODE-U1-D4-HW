@@ -60,6 +60,7 @@ body {
   position: relative;
   bottom: 15%;
   display: flex;
+  align-content: center;
   transform: translateY(100px);
   cursor: pointer;
   user-select: none;
@@ -71,26 +72,22 @@ body {
 }
 
 #image-link {
-  font-size: 1.5em;
+  font-size: 1.4em;
   background: rgb(255, 255, 255, 0.9);
-  margin-left: 10px;
-  border-radius: 25px;
-  padding-top: 0;
-  width: 250px;
-  height: 50px;
-  white-space: none;
+  width: 175px;
+  padding-top: 15px;
+  border-radius: 50px;
+  padding-left: 10px;
+  display: inline;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-#image-link ion-icon {
-  background: rgb(255, 255, 255, 0);
 }
 
 ion-icon {
   font-size: 2em;
   background: rgb(255, 255, 255, 0.9);
-  margin-left: 10px;
+  margin-left: 13px;
   border-radius: 50%;
   padding: 10px;
 }
